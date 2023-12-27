@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://osenbal.github.io/smartcube-web/",
+  "homepage": "https://osenbal.github.io/smartcube-web",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -r https://github.com/osenbal/smartcube-web.git",
