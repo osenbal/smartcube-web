@@ -241,8 +241,6 @@ function App() {
                   slidesPerView: 3,
                 },
               }}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
             >
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
