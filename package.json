@@ -6,7 +6,7 @@
   "homepage": "https://osenbal.github.io/smartcube-web/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build -r https://github.com/osenbal/smartcube-web.git",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

@@ -14,6 +14,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    // output directory
+    "outDir": "build",
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
