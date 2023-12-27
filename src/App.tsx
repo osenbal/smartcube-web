@@ -48,7 +48,7 @@ function App() {
           <ParallaxBanner
             layers={[
               {
-                image: '/images/thumbs/thumb_jumbotron.jpg',
+                image: './images/thumbs/thumb_jumbotron.jpg',
                 speed: 20,
               },
               {
@@ -63,7 +63,7 @@ function App() {
                 children: (
                   <div className="absolute flex flex-col text-white gap-y-2 justify-center items-center w-full h-full">
                     <img
-                      src="/Logo.png"
+                      src="./Logo.png"
                       alt="logo smartcube"
                       className="w-20 h-20"
                     />
@@ -82,7 +82,7 @@ function App() {
             <ParallaxBanner
               layers={[
                 {
-                  image: '/images/thumbs/thumb_jumbotron.jpg',
+                  image: './images/thumbs/thumb_jumbotron.jpg',
                   speed: 0.1,
                   className:
                     'ms-auto align-end h-screen md:w-[500px] object-cover',
@@ -147,7 +147,7 @@ function App() {
                 className="w-1/3 h-[12vh] md:h-[25vh] object-cover md:me-[-4rem]"
               >
                 <img
-                  src="/images/thumbs/thumb_problem1.jpg"
+                  src="./images/thumbs/thumb_problem1.jpg"
                   alt="problem1"
                   className="w-full h-full  object-cover md:me-[-4rem]"
                 />
@@ -159,7 +159,7 @@ function App() {
                 className="w-1/3 h-[24vh] md:h-[50vh] object-cover md:me-[-2rem]"
               >
                 <img
-                  src="/images/thumbs/thumb_problem2.jpg"
+                  src="./images/thumbs/thumb_problem2.jpg"
                   alt="problem1"
                   className="w-full h-full   object-cover md:me-[-2rem]"
                 />
@@ -171,7 +171,7 @@ function App() {
                 className="w-1/3 h-[36vh] md:h-[75vh]"
               >
                 <img
-                  src="/images/thumbs/thumb_problem3.jpg"
+                  src="./images/thumbs/thumb_problem3.jpg"
                   alt="problem1"
                   className="w-full h-full   object-cover"
                 />
@@ -187,13 +187,13 @@ function App() {
           >
             <div className="flex relative w-full h-fit px-4 md:px-0">
               <img
-                src="/images/thumbs/thumb_solutionSensor.png"
+                src="./images/thumbs/thumb_solutionSensor.png"
                 alt="solution"
                 className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-md"
               />
 
               <img
-                src="/images/thumbs/thumb_solutionCamera.png"
+                src="./images/thumbs/thumb_solutionCamera.png"
                 alt="solution"
                 className="w-48 h-48 md:w-72 md:h-72 object-cover mt-[8rem] ms-[-8rem] rounded-md"
               />
@@ -247,7 +247,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_septian.jpeg"
+                    src="./images/thumbs/avatar/avatar_septian.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full"
                   />
@@ -261,7 +261,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_joko.jpeg"
+                    src="./images/thumbs/avatar/avatar_joko.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover "
                   />
@@ -274,7 +274,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_iqbal.jpeg"
+                    src="./images/thumbs/avatar/avatar_iqbal.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover "
                   />
@@ -287,7 +287,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_rotua.jpeg"
+                    src="./images/thumbs/avatar/avatar_rotua.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48  rounded-full object-cover "
                   />
@@ -300,7 +300,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_nia.jpeg"
+                    src="./images/thumbs/avatar/avatar_nia.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48  rounded-full object-cover "
                   />
@@ -313,7 +313,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_ilham.jpeg"
+                    src="./images/thumbs/avatar/avatar_ilham.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover "
                   />
@@ -326,7 +326,7 @@ function App() {
               <SwiperSlide>
                 <div className="flex flex-col items-center gap-y-4">
                   <img
-                    src="/images/thumbs/avatar/avatar_nata.jpeg"
+                    src="./images/thumbs/avatar/avatar_nata.jpeg"
                     alt="team1"
                     className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover "
                   />
@@ -344,7 +344,7 @@ function App() {
       <footer>
         <div className="flex flex-col sm:flex-row justify-between gap-6 items-center max-w-[1280px] mx-auto py-8 px-4">
           <div className="flex flex-row items-center gap-2">
-            <img src="/Logo.png" alt="smartcube logo" className="w-12 h-12" />
+            <img src="./Logo.png" alt="smartcube logo" className="w-12 h-12" />
             <p className="text-lg font-semibold">Smartcube</p>
           </div>
           <div className="flex flex-col gap-4">
